@@ -1,0 +1,76 @@
+#dark{
+    position: absolute;
+}
+
+.DarkMode{
+    background-color: rgb(43, 43, 43);
+}
+
+
+.dados{
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+ul {
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+li {
+    list-style: none;
+    padding: 10px 20px;
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 2px solid #000000;
+    
+    margin-bottom: 10px;
+    background: #f7f7f7;
+    transition: all 0.75s ease;
+}
+
+li:hover {
+    background: #d4d4d4;
+}
+
+li > button {
+    font-weight: normal;
+    background: red;
+    border: solid black 2px;
+    float: right !important;
+    color: #000000;
+    font-weight: 800;
+    padding: 11px  20px;
+    margin-top: -12px;
+    margin-left: 100px;
+}
+
+input {
+    border-radius: 5px;
+    min-width: 90%;
+    padding: 5px;
+    height: 35px;
+    border: solid black 2px;
+    margin: 0px;
+    float: left;
+}
+
+
+.verified {
+    color: #000000;
+    text-decoration: line-through
+}
+
+.delete {
+    display: none;
+}
+
+#enter{
+    background-color: #23d100;
+    padding: 8px 15px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
